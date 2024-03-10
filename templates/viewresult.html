@@ -1,0 +1,41 @@
+{% extends 'studenthome.html' %}
+{% block body %}
+<body>
+    <div>
+   
+        <h2 align="center"><b>Career Prediction</b></h2><br>
+        </div>
+
+    <h5>Your Predicted Career Fields are:</h5>
+    <div class="row my-5">
+        <div class="col-md-4 my-3 my-md-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Rank 1</h5>
+                    <p class="card-text">{{ r }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3 my-md-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Rank 2</h5>
+                    <p class="card-text">{{ r1 }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3 my-md-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Rank 3</h5>
+                    <p class="card-text">{{ r2 }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+
+{% endblock %}

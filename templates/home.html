@@ -1,0 +1,59 @@
+{% extends 'studenthome.html' %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+     <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/css/owl.carousel.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="../static/css/price_rangs.css" />
+  <link rel="stylesheet" href="../static/css/slicknav.css" />
+  <link rel="stylesheet" href="../static//css/themify-icons.css" />
+  <link rel="stylesheet" href="../static/css/magnific-popup.css" />
+  <link rel="stylesheet" href="../static/css/themify-icons.css" />
+  <link rel="stylesheet" href="../static/css/slick.css" />
+  <link rel="stylesheet" href="../static/css/nice-select.css" />
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+<body>
+    <div>
+   
+        <h2 align="center"><b>Welcome {{ data }} </b></h2><br>
+        </div>
+        <div>
+        <p>   <h3> INSTRUCTIONS</h3>
+            </p>
+        </div><br>
+        <div>
+            <ol>
+                <li class="fs-4 mb-3"> Lets Start!!!</li>
+                <li>1. First Take EQ test. There total 25 questions and five options for each question. Try to answer each question honestly.</li>
+                <li>2. Take IQ test. There total 10 questions. The maximum score is 150. Try to Finish the test within 10 minutes.</li>
+                <li>3. Checkout the test results and know your highest personality trait and IQ score.</li>
+                <li>4. Click on the prediction and predict your career field.</li>
+                <li class="fs-4 mt-3"> All the best!</li>
+            </ol>
+        </div>
+        
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="text-center">
+                        <a href="/eqques" class="btnup head-btn1" style="color: white;"
+                        >Take The Test</a
+                      >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+{% endblock %}
